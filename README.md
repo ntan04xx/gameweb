@@ -2,4 +2,4 @@
 
 Website to review games I have played.
 
-Further details to come
+To create a box for each individual game review
