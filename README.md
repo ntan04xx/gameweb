@@ -1,9 +1,8 @@
 # gameweb
 
-Website to review games I have played.
+Website to review games I have played. Includes brief introduction and link to individual game reviews.
 
-To create a box for each individual game review
-https://www.geeksforgeeks.org/how-to-create-three-boxes-in-the-same-div-using-html-and-css/
+TBA: Voting system to decide which next game to play and review
 
 ---
 permalink: /index.html
