@@ -5,25 +5,48 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+      <p> Navigation: </p>
+      <ul>
+        <li><a href = "#intro">Introduction</a></li>
+        <li><a href = "#reviews">Review List</a></li>
+        <li><a href = "#poll">Game Poll</a></li>
+      </ul>      
+      
+      <section id = "intro">
         <h1>Welcome to my game review site!</h1>
         <p> Hey everyone, my name is Nathan and this is my site! Here, I post reviews of all games I have played. 
-            If you have any suggestions for what I should play next, make a vote in the survery now! All down below!</p>
-       &nbsp
+          If you have any suggestions for what I should play next, make a vote in the survery now! All down below!</p>
+      </section>
+      &nbsp
+      <section id = "reviews">
         <h1> All Game Reviews!</h1>
         &nbsp From oldest to newest - &nbsp
-       
-       <div class = "box-wrapper">
-           <div id = "box">
-                <p> Persona 3 Portable &nbsp</p>
-               <img src = "p3portable.png" alt = "P3P Image">
-           </div>
+
+        <div class = "box-wrapper">
           <div id = "box">
-                <p> Persona 5 Royal &nbsp</p>
-               <img src = "p5royal.png" alt = "P5R Image">
-           </div>
+            <p> Persona 3 Portable &nbsp</p>
+            <img src = "p3portable.png" alt = "P3P Image">
+          </div>
+          <div id = "box">
+            <p> Persona 5 Royal &nbsp</p>
+            <img src = "p5royal.png" alt = "P5R Image">
+          </div>
         </div>
-        <h1> Vote on my next game here!</h1>
-        Options: TBC &nbsp
+      </section>
+      <section id = "poll">
+        <h1>Vote on my next game here!</h1>
+        <p>What would you want me to review next?</p>
+        <form>
+          <input name = "game" type = "radio" id = "P4G" value = "P4G">
+          <label for = "P4G">Persona 4 Golden</label>
+          <input name = "game" type = "radio" id = "P5T" value = "P5T">
+          <label for = "P5T">Persona 5 Tactica</label>
+          <input name = "game" type = "radio" id = "P5S" value = "P5S">
+          <label for = "P5S">Persona 5 Strikers</label>
+          &nbsp
+          <input type = "submit" value = "Submit">
+        </form>
         <p> Click to view results</p>
+      </section>
     </body>
 </html>
