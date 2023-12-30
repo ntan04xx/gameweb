@@ -1,3 +1,4 @@
+/* CSS styles */
 body {
     background-color: blue;
     color: yellow;
@@ -8,6 +9,10 @@ h1 {
     color: yellow;
     border: solid 5px yellow;
     text-align: center;
+}
+
+a {
+    color: white
 }
 
 .box-wrapper {
