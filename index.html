@@ -16,22 +16,34 @@
         <h1>Welcome to my game review site!</h1>
         <p> Hey everyone, my name is Nathan and this is my site! Here, I post reviews of all games I have played. 
           If you have any suggestions for what I should play next, make a vote in the survery now! All down below!</p>
-      </section>
-      &nbsp
+      </section><br>
+      
       <section id = "reviews">
         <h1> All Game Reviews!</h1>
-        &nbsp From oldest to newest - &nbsp
+        From oldest to newest -<br>
 
-        <div class = "box-wrapper">
-          <div id = "box">
-            <p> Persona 3 Portable &nbsp</p>
-            <img src = "p3portable.png" alt = "P3P Image">
-          </div>
-          <div id = "box">
-            <p> Persona 5 Royal &nbsp</p>
-            <img src = "p5royal.png" alt = "P5R Image">
-          </div>
-        </div>
+        <table numrows = "3" numcols = "4">
+          <thead>
+          <tr>
+            <th scope = "col">Game Name</th>
+            <th scope = "col">Image</th>
+            <th scope = "col">Game Description</th>
+            <th scope = "col">Review Link</th>
+          </tr>
+          </thead>
+          <tr>
+            <td>Persona 3 Portable</td>
+            <td><img src = "p3portable.png" alt = "P3P Image"></td>
+            <td>Shortly after transferring to Gekkoukan High School, the protagonist encounters the "Dark Hour." Unfamiliar stillness swallows the city, people turn into eerie coffins, and otherworldly monsters called Shadows swarm. When they are attacked by one of these Shadows, and all hope seems lost, the power of the heart, their Persona is awakened.</td>
+            <td><a href = "./p3p">Link</a></td>
+          </tr>
+          <tr>
+            <td>Persona 5 Royal</td>
+            <td><img src = "p5royal.png" alt = "P5R Image"></td>
+            <td>Forced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.</td>
+            <td><a href = "./p5r">Link</a></td>
+          </tr>
+        </table>
       </section>
       <section id = "poll">
         <h1>Vote on my next game here!</h1>
@@ -42,11 +54,11 @@
           <input name = "game" type = "radio" id = "P5T" value = "P5T">
           <label for = "P5T">Persona 5 Tactica</label>
           <input name = "game" type = "radio" id = "P5S" value = "P5S">
-          <label for = "P5S">Persona 5 Strikers</label>
-          &nbsp
+          <label for = "P5S">Persona 5 Strikers</label><br>
           <input type = "submit" value = "Submit">
         </form>
         <p> Click to view results</p>
       </section>
     </body>
+</html>
 </html>
