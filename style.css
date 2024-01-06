@@ -20,3 +20,10 @@ table, th, tr, td {
   font-size: 1em;
   border-collapse: collapse;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
