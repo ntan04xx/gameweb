@@ -10,6 +10,10 @@ h1 {
     text-align: center;
 }
 
+.checked {
+  color: orange
+}
+
 a {
     color: white
 }
